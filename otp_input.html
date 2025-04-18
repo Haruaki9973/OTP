@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>OTP入力</title>
+</head>
+<body>
+    <h1>ワンタイムパスワードを入力してください</h1>
+    <form action="/verify" method="POST">
+        <input type="text" name="otp" placeholder="6桁のコード" required>
+        <button type="submit">認証</button>
+    </form>
+</body>
+</html>
